@@ -54,7 +54,7 @@ This tutorial is intended for participants who have basic programming experience
 
 Geoffrey Boushey is a computational and research data science specialist at UCSF and a member of the Library's Data Science and Open Scholarship team. Geoff teaches courses and provides consultations on foundational programming, data analysis, and AI techniques including Python, SQL, Unix, and Version Control.
 
-## Data
+## Data Citation
 
 This workshop uses data from the Cornell Movie Review dataset:
 
@@ -64,27 +64,23 @@ This workshop will use the polarity dataset v1.1:
 
 http://www.cs.cornell.edu/people/pabo/movie-review-data/mix20_rand700_tokens_0211.tar.gz
 
-### Data Citation
-
-[Add verified citation for the Cornell Movie Review polarity dataset here.]
-
 ## Workbooks
 
 This tutorial consists of a series of notebooks. Further explanatory text is available in the notebook for each section of the tutorial.
 
-### [Sentiment-Example.ipynb](https://github.com/UCSF-DSOS/Document-Classification/blob/main/Sentiment-Example.ipynb)
+### [Sentiment-Example.ipynb](https://github.com/geoffswc/Document-Classification/blob/main/Sentiment-Example.ipynb)
 
 How to create, populate, and apply a sentiment model on a very small set of observations (documents).
 
-### [Stem-Lemma-Example.ipynb](https://github.com/UCSF-DSOS/Document-Classification/blob/main/Stem-Lemma-Example.ipynb)
+### [Stem-Lemma-Example.ipynb](https://github.com/geoffswc/Document-Classification/blob/main/Stem-Lemma-Example.ipynb)
 
 How to use the stemming and lemmatizing libraries to condense multiple words into a common base.
 
-### [Prepare-Document-Example.ipynb](https://github.com/UCSF-DSOS/Document-Classification/blob/main/Prepare-Document-Example.ipynb)
+### [Prepare-Document-Example.ipynb](https://github.com/geoffswc/Document-Classification/blob/main/Prepare-Document-Example.ipynb)
 
 How to transform a single document (string) into the words and phrases most likely to be relevant for a classification algorithm. Covers removal of stop words, removal of non-alpha or non-numeric text, stemming/lemmatizing, vectorization of documents.
 
-### [Movie-Reviews-Pipeline.ipynb](https://github.com/UCSF-DSOS/Document-Classification/blob/main/Movie-Reviews-Pipeline.ipynb)
+### [Movie-Reviews-Pipeline.ipynb](https://github.com/geoffswc/Document-Classification/blob/main/Movie-Reviews-Pipeline.ipynb)
 
 How to use a scikit-learn pipeline to more efficiently create, populate, and apply a sentiment prediction model on a larger document collection.
 
