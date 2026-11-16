@@ -1,0 +1,9 @@
+baseurl: "/Document-Classification"
+
+repository: geoffswc/Document-Classification
+
+# Use the minimal theme layout (which doesn't wrap the title in a link)
+theme: jekyll-theme-minimal
+
+# Set the plain text title for the browser tab
+title: "Document Classification"
