@@ -68,39 +68,39 @@ http://www.cs.cornell.edu/people/pabo/movie-review-data/mix20_rand700_tokens_021
 
 This repository contains a series of notebooks that introduce document preparation, vectorization, classification, clustering, model evaluation, and application of these techniques to larger text collections.
 
-### [Sentiment-Example.ipynb](https://github.com/geoffswc/Document-Classification/blob/main/Sentiment-Example.ipynb)
+### [Sentiment-Example.ipynb](https://github.com/geoffswc/Document-Classification/blob/master/Sentiment-Example.ipynb)
 
 Introduces document classification using a very small set of movie reviews. The notebook creates a bag-of-words representation with `CountVectorizer`, trains a Random Forest classifier, examines feature importance, and uses the model to predict the sentiment of new reviews.
 
-### [Stem-Lemma-Example.ipynb](https://github.com/geoffswc/Document-Classification/blob/main/Stem-Lemma-Example.ipynb)
+### [Stem-Lemma-Example.ipynb](https://github.com/geoffswc/Document-Classification/blob/master/Stem-Lemma-Example.ipynb)
 
 Demonstrates the differences between stemming and lemmatization using NLTK's `PorterStemmer` and `WordNetLemmatizer`, including examples of how each approach handles different forms of the same word.
 
-### [Example-Prepare-Document.ipynb](https://github.com/geoffswc/Document-Classification/blob/main/Example-Prepare-Document.ipynb)
+### [Example-Prepare-Document.ipynb](https://github.com/geoffswc/Document-Classification/blob/master/Example-Prepare-Document.ipynb)
 
 Walks through preparing raw text for document analysis. Starting with a sample document, the notebook demonstrates vectorization, removal of non-alphabetic characters, normalization to lowercase, stop-word removal, stemming, and lemmatization.
 
-### [Sentiment-Pipeline-Example.ipynb](https://github.com/geoffswc/Document-Classification/blob/main/Sentiment-Pipeline-Example.ipynb)
+### [Sentiment-Pipeline-Example.ipynb](https://github.com/geoffswc/Document-Classification/blob/master/Sentiment-Pipeline-Example.ipynb)
 
 Expands on `Sentiment-Example.ipynb` by combining document vectorization, TF-IDF transformation, and Random Forest classification into a scikit-learn `Pipeline`. The notebook also examines feature importance, prediction probabilities, precision, recall, and accuracy.
 
-### [Movie-Reviews-Pipeline.ipynb](https://github.com/geoffswc/Document-Classification/blob/main/Movie-Reviews-Pipeline.ipynb)
+### [Movie-Reviews-Pipeline.ipynb](https://github.com/geoffswc/Document-Classification/blob/master/Movie-Reviews-Pipeline.ipynb)
 
 Applies the classification pipeline to the larger movie-review dataset. The notebook splits the data into training and testing sets, builds a TF-IDF and Random Forest pipeline, examines important features, generates predictions and probabilities, and evaluates the resulting classifier using precision, recall, accuracy, F-score, and cross-validation.
 
-### [Create-Movie-Review-Dataframes.ipynb](https://github.com/geoffswc/Document-Classification/blob/main/Create-Movie-Review-Dataframes.ipynb)
+### [Create-Movie-Review-Dataframes.ipynb](https://github.com/geoffswc/Document-Classification/blob/master/Create-Movie-Review-Dataframes.ipynb)
 
 Prepares the Cornell movie-review data used by the classification examples. The notebook reads positive and negative review files, assigns sentiment labels, removes non-alphabetic characters and stop words, lemmatizes the text, and creates a dataframe suitable for subsequent analysis.
 
-### [Kmeans-Sample-Data.ipynb](https://github.com/geoffswc/Document-Classification/blob/main/Kmeans-Sample-Data.ipynb)
+### [Kmeans-Sample-Data.ipynb](https://github.com/geoffswc/Document-Classification/blob/master/Kmeans-Sample-Data.ipynb)
 
 Demonstrates unsupervised document clustering using TF-IDF vectors and scikit-learn's `KMeans`. The notebook clusters a small set of movie-review examples and examines the terms associated with each cluster.
 
-### [Advertising-Legal-Classification.ipynb](https://github.com/geoffswc/Document-Classification/blob/main/Advertising-Legal-Classification.ipynb)
+### [Advertising-Legal-Classification.ipynb](https://github.com/geoffswc/Document-Classification/blob/master/Advertising-Legal-Classification.ipynb)
 
 Applies document classification to a dataset of computer-generated transcripts categorized as advertising or legal content. The notebook builds a Random Forest text-classification pipeline, examines feature importance, generates class probabilities, adjusts classification thresholds, and evaluates the model using precision, recall, accuracy, F-score, and cross-validation.
 
-### [Washington-Post-Collection.ipynb](https://github.com/geoffswc/Document-Classification/blob/main/Washington-Post-Collection.ipynb)
+### [Washington-Post-Collection.ipynb](https://github.com/geoffswc/Document-Classification/blob/master/Washington-Post-Collection.ipynb)
 
 Provides a short example of loading and inspecting a Washington Post opioid collection dataset, including its available fields and OCR text.
 
